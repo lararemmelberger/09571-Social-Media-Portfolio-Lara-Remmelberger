@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Personal Information</title>
+  <style>
+        nav {
+      background-color: #333; 
+      overflow: hidden; 
+    }
+
+    nav a {
+      float: left; 
+      display: block; 
+      color: white;
+      text-align: center; 
+      padding: 14px 16px; 
+      text-decoration: none; 
+    }
+
+    nav a:hover {
+      background-color: #ddd; 
+      color: black; 
+    }
+    body {
+        font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+        background: rgb(33, 53, 61)
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid rgb(221, 221, 221);
+      text-align: left;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .main-sheet{
+        font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+      background-color: rgba(255, 255, 255, 0.8); 
+      padding: 50px;
+
+    }
+  </style>
+</head>
+<body>
+    <nav>
+        <a href="Home.html">Start</a>
+        <a href="resume Grundgerüst.html">Resume</a>
+        <a href="Social Media Overview.html">Class Overview</a>
+        
+      </nav>
+<div class="main-sheet">
+  <h1>Class 10: Data Storage and Databases</h1>
+  <h2>Data Storage</h2>
+  <p>Data storage refers to the physical or digital means of preserving and retaining data for future use. <br>
+    It is the broader concept that encompasses various methods and technologies for storing data.<br>
+    Data storage can include a wide range of storage technologies, such as hard disk drives (HDDs), <br>
+    solid-state drives (SSDs), cloud storage, tape storage, optical storage, and more.
+    </p>
+    
+    <h2>Databases</h2>
+    <p>It is a structured collection of data organized for efficient storage, retrieval, and management.<br>
+        It is designed to support the efficient querying and processing of data, enforcing relationships between different pieces of information.        
+        </p>
+    <h2>Types of database (examples)</h2>
+    <h3>Relational Databases (RDBMS):</h3>
+    <p> - Organize data into tables with rows and columns.<br>
+        - Enforce relationships between tables.<br>
+        - Examples: MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.
+        </p>
+    <h3>NoSQL Databases:</h3>
+    <p> - Designed for flexibility and scalability.<br>
+        - Do not rely on a fixed schema.
+        </p>
+    <h3>In-Memory Databases:</h3>
+    <p>Store data in the system's main memory (RAM) for faster access.    </p>
+    <h3>Distributed Databases:</h3>
+    <p>Distribute data across multiple nodes or servers for improved scalability and fault tolerance.</p>
+    <h3>Related Buzzwords: ACID</h3>
+    <p>ACID stands for:<br>
+    1.Atomicity: Views the entire Data transaction as a single unit. <br>
+    If theres an error with even just one element of that transaction, the entire transaction will be rolled back and the database will stay unchanged.<br>
+    2. Consistency: Consistency ensures that a transaction brings the database from one valid state to another.<br>
+    If a transaction violates any integrity constraints, the entire transaction is rolled back, and the database is restored to its previous state.
+    3.Isolation: Isolation ensures that the execution of one transaction is isolated from the execution of other transactions.<br>
+    It prevents interference between transactions, which can lead to inconsistent or incorrect results.
+    4. Durability: Durability guarantees that once a transaction is committed, its effects will persist even in the event of a system failure. They are permanent.</p>
+</div>
+</body>
